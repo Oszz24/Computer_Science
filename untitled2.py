@@ -28,7 +28,7 @@ def sign():
     Username = input("Create a username: ")
     while True:
         if Username in logins:
-            print("\nERROR: Username already exists\n")
+            print("\nERROR: Username entered is exsisting in the database already\n")
             Username = input("Create a username: ")
 
         else:
